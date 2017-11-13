@@ -1,0 +1,5 @@
+echo "Script1 avec les arguments:"
+echo "$1" 
+echo "$2"
+echo "$#"
+./script2.sh "$1" "$2"
